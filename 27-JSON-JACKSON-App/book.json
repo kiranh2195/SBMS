@@ -1,0 +1,10 @@
+{
+	"name": "Java",
+	"price": 101.0,
+	"author": {
+		"authorname": "Kiran",
+		"authorEmail": "kiran@gmail.com",
+		"authorPhno": 8766928529
+	},
+	"bookId": 101
+}

@@ -1,0 +1,9 @@
+Welcome:
+  msg: Hello...!!
+Message:
+  greet: Good Morning...!!
+server:
+  port: 9090
+spring:
+  application:
+    name: sb-rest-api

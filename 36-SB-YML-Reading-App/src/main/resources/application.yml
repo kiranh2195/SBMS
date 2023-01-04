@@ -1,0 +1,12 @@
+server:
+  port: 9090
+  
+spring:
+  application:
+    name: sb-yml-app
+  
+ashokit:
+  messages:
+    welcome: Welcome to Ashok IT
+    greet: Good Morning
+    wish: All the Best       

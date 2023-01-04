@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="creditCard" class="com.billpayment.CreditCardPayment" />
+	<bean id="debitCard" class="com.billpayment.DebitCardPayment" />
+	<bean id="upi" class="com.billpayment.UpiPayment" />
+	<bean id="billCollector" class="com.billpayment.BillCollector">
+		<property name="payment" ref="debitCard"></property>
+	</bean>
+	<!-- right click on src/main/java ->select Spring Bean configuration file -> Give any name to the file  -->
+</beans>
+
